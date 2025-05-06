@@ -1,0 +1,36 @@
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    width: 100%; /* Ensure it spans the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    position: fixed; /* Optional: Make it stick to the top */
+    top: 0; /* Optional: Align it to the top of the page */
+    left: 0; /* Optional: Align it to the left of the page */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
