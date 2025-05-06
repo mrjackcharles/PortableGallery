@@ -1,14 +1,33 @@
 import React from "react";
 import "./ImageGallery.css";
 
-function ImageGallery({ images }) {
+function ImageGallery() {
     return (
         <div className="image-gallery">
-            {images.map((image, index) => (
-                <div key={index} className="image-item">
-                    <img src={image} alt={`Gallery item ${index + 1}`} />
-                </div>
-            ))}
+            <div class="item">
+                <img
+                    src="https://picsum.photos/200/300"
+                    alt="Cinque Terre"
+                    width="600"
+                    height="400"
+                />
+            </div>
+            <div class="item">
+                <img
+                    src="https://picsum.photos/200/300"
+                    alt="Cinque Terre"
+                    width="600"
+                    height="400"
+                />
+            </div>
+            <div class="item">
+                <img
+                    src="https://picsum.photos/200/300"
+                    alt="Cinque Terre"
+                    width="600"
+                    height="400"
+                />
+            </div>
         </div>
     );
 }
