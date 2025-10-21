@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const captions = ["Green", "Creme", "Blue"];
+const captions = ["Lorne", "Paris", "SA"];
 
 export default function GalleryGrid({ images = [] }) {
     return (
