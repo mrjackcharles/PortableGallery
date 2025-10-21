@@ -1,10 +1,6 @@
 import Image from "next/image";
 
 export default function GalleryGrid({ images = [] }) {
-    if (!images.length) {
-        return null;
-    }
-
     return (
         <section className="mx-auto mt-10 grid w-full grid-cols-3 gap-y-60 pt-79">
             {images.map((src, index) => (
