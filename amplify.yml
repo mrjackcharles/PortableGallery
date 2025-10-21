@@ -10,12 +10,12 @@ applications:
           commands:
             - npm run build
       artifacts:
-        baseDirectory: .
+        baseDirectory: out
         files:
           - '**/*'
       cache:
         paths:
           - node_modules/**/*
     appSettings:
-      artifactsBaseDirectory: .next
+      artifactsBaseDirectory: out
       framework: nextjs
