@@ -1,47 +1,64 @@
 # PortableGallery
 
-Personal photography gallery built with Next.js 15 and deployed on AWS Amplify.
+This is my personal and customisable space to display my photography in a creative way
 
-## Stack
-- Next.js App Router
-- React 19
-- Tailwind CSS 4 postcss pipeline
-- AWS Amplify hosting
+### Demo
 
-## Local Development
+See it live: [https://portablegallery.co.uk](https://portablegallery.co.uk)
+
+---
+
+## Tech Stack
+
+-   Next.js
+-   React
+-   Tailwind
+-   AWS Amplify hosting
+
+---
+
+## Features
+
+-   Picture Gallery
+
+---
+
+## Installation
+
+### Local
+
+Clone the repo:
+
 ```bash
+git clone https://github.com/mrjackcharles/PortableGallery.git
+```
+
+Make sure to be in the correct directory:
+
+```
 cd portable-gallery
+```
+
+Install dependancies:
+
+```
 npm install
+```
+
+Run locally:
+
+```
 npm run dev
 ```
-The development server runs at http://localhost:3000.
 
-## Production Build
-```bash
-npm run build
-npm run start
-```
-These scripts use the standard Next.js compiler (Turbopack removed).
+The development server runs at: http://localhost:3000
 
 ## Deployments
-Amplify builds use the `amplify.yml` in the repo root:
-```yaml
-npm ci
-npm run build
-```
-The build artifact is generated as a static export in the `out/` directory.
 
-## Structure
-```
-portable-gallery/
-├── app/
-│   ├── (site)/         # route group with shared layout
-│   ├── globals.css
-│   └── layout.js
-├── components/         # reusable UI pieces
-├── lib/                # shared data helpers
-└── public/             # static assets (fonts, photos, favicon)
-```
+This application is currently hosted on AWS Amplify with a custom `amplify.yml` and domain
 
-## Fonts
-All fonts are served locally from `public/fonts`, so builds do not depend on external providers.
+Version: 0.0.1
+
+---
+
+© 2025 Jack Charles. All rights reserved.
