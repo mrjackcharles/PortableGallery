@@ -57,7 +57,9 @@ The development server runs at: http://localhost:3000
 
 This application is currently hosted on AWS Amplify with a custom `amplify.yml` and domain
 
-Version: 0.0.1
+Version: 0.1
+
+The version label is hardcoded in `portable-gallery/components/NavBar.jsx`; update it by hand on release.
 
 ---
 
